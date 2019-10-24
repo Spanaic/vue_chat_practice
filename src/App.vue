@@ -14,11 +14,11 @@
       </div>
     </header>
 
-    <router-view>
+    <router-view
       :isSignedIn="isSignedIn"
       :userName="userName"
       :userPic="userPic"
-    </router-view>
+    ></router-view>
     <!-- router-viewについてはもう一度学ぶ必要がある -->
     <!-- router-view内で子コンポーネントに値を渡しているみたい -->
     <!-- propsではないところに注目 -->

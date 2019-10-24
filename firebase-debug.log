@@ -1,29 +1,25 @@
-[debug] [2019-10-23T12:12:32.749Z] ----------------------------------------------------------------------
-[debug] [2019-10-23T12:12:32.751Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] [2019-10-23T12:12:32.751Z] CLI Version:   7.6.1
-[debug] [2019-10-23T12:12:32.751Z] Platform:      darwin
-[debug] [2019-10-23T12:12:32.751Z] Node Version:  v12.11.1
-[debug] [2019-10-23T12:12:32.753Z] Time:          Wed Oct 23 2019 21:12:32 GMT+0900 (GMT+09:00)
-[debug] [2019-10-23T12:12:32.753Z] ----------------------------------------------------------------------
-[debug] [2019-10-23T12:12:32.753Z] 
-[debug] [2019-10-23T12:12:32.762Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2019-10-23T12:12:32.762Z] > authorizing via signed-in user
-[debug] [2019-10-23T12:12:32.763Z] [iam] checking project vue-chat-practice-401a9 for permissions ["firebase.projects.get"]
-[debug] [2019-10-23T12:12:32.764Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2019-10-23T12:12:32.764Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2019-10-23T12:12:32.978Z] <<< HTTP RESPONSE 200
-[debug] [2019-10-23T12:12:33.016Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-chat-practice-401a9:testIamPermissions  
+[debug] [2019-10-24T00:50:25.579Z] ----------------------------------------------------------------------
+[debug] [2019-10-24T00:50:25.581Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-10-24T00:50:25.581Z] CLI Version:   7.6.1
+[debug] [2019-10-24T00:50:25.581Z] Platform:      darwin
+[debug] [2019-10-24T00:50:25.581Z] Node Version:  v12.11.1
+[debug] [2019-10-24T00:50:25.590Z] Time:          Thu Oct 24 2019 09:50:25 GMT+0900 (GMT+09:00)
+[debug] [2019-10-24T00:50:25.590Z] ----------------------------------------------------------------------
+[debug] [2019-10-24T00:50:25.590Z] 
+[debug] [2019-10-24T00:50:25.600Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-24T00:50:25.600Z] > authorizing via signed-in user
+[debug] [2019-10-24T00:50:25.600Z] [iam] checking project vue-chat-practice-401a9 for permissions ["firebase.projects.get"]
+[debug] [2019-10-24T00:50:25.602Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-chat-practice-401a9:testIamPermissions  
 
-[debug] [2019-10-23T12:12:33.826Z] <<< HTTP RESPONSE 200
-[debug] [2019-10-23T12:12:33.827Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-chat-practice-401a9  
+[debug] [2019-10-24T00:50:26.465Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-24T00:50:26.467Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-chat-practice-401a9  
  
-[debug] [2019-10-23T12:12:34.596Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-24T00:50:27.366Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/Takeru/Desktop/work/vagrant/vue_api/vue_chat_practice'...
 [info] 
-[debug] [2019-10-23T12:12:34.599Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-chat-practice-401a9/webApps/-/config  
+[debug] [2019-10-24T00:50:27.369Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-chat-practice-401a9/webApps/-/config  
  
-[debug] [2019-10-23T12:12:35.556Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-24T00:50:29.209Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: dist
 [info] ✔  hosting: Local server: http://localhost:5000
